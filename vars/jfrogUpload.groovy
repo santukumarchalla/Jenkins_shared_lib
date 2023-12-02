@@ -1,4 +1,4 @@
 def call() {
   echo '------executing jfrog'
-  sh """ curl -X PUT -u admin:Admin123-T /var/lib/jenkins/workspace/JfrogArtf/target/kubernetes-configmap-reload-0.0.1-SNAPSHOT.jar http://3.142.47.84:8082
+  sh """ curl -X PUT -u admin:Admin@123-T /var/lib/jenkins/workspace/JfrogArtf/target/kubernetes-configmap-reload-0.0.1-SNAPSHOT.jar http://18.212.17.198:8081
   }
